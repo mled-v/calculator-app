@@ -1,0 +1,12 @@
+#calculator{
+    display: grid;
+    grid-template-columns: repeat(4,100px) ;
+
+}
+
+#display {
+    background-color: grey;
+    min-width: 400px;
+    grid-column: 1 / -1;
+
+}
